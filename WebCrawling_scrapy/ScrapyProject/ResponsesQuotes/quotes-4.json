@@ -1,0 +1,52 @@
+{
+  "0": {
+    "text": "The more that you read, the more things you will know. The more that you learn, the more places you'll go.",
+    "author": "Dr. Seuss",
+    "tags": ["learning", "reading", "seuss"]
+  },
+  "1": {
+    "text": "Of course it is happening inside your head, Harry, but why on earth should that mean that it is not real?",
+    "author": "J.K. Rowling",
+    "tags": ["dumbledore"]
+  },
+  "2": {
+    "text": "The truth is, everyone is going to hurt you. You just got to find the ones worth suffering for.",
+    "author": "Bob Marley",
+    "tags": ["friendship"]
+  },
+  "3": {
+    "text": "Not all of us can do great things. But we can do small things with great love.",
+    "author": "Mother Teresa",
+    "tags": ["misattributed-to-mother-teresa", "paraphrased"]
+  },
+  "4": {
+    "text": "To the well-organized mind, death is but the next great adventure.",
+    "author": "J.K. Rowling",
+    "tags": ["death", "inspirational"]
+  },
+  "5": {
+    "text": "All you need is love. But a little chocolate now and then doesn't hurt.",
+    "author": "Charles M. Schulz",
+    "tags": ["chocolate", "food", "humor"]
+  },
+  "6": {
+    "text": "We read to know we're not alone.",
+    "author": "William Nicholson",
+    "tags": ["misattributed-to-c-s-lewis", "reading"]
+  },
+  "7": {
+    "text": "Any fool can know. The point is to understand.",
+    "author": "Albert Einstein",
+    "tags": ["knowledge", "learning", "understanding", "wisdom"]
+  },
+  "8": {
+    "text": "I have always imagined that Paradise will be a kind of library.",
+    "author": "Jorge Luis Borges",
+    "tags": ["books", "library"]
+  },
+  "9": {
+    "text": "It is never too late to be what you might have been.",
+    "author": "George Eliot",
+    "tags": ["inspirational"]
+  }
+}

@@ -1,10 +1,12 @@
 import requests
+import json
 
-url = 'https://maps.googleapis.com/maps/api/geocode/json?'
+url = 'https://www.googleapis.com/customsearch/v1?'
 
 parameters = {
-    'address': "coding blocks pitampura",
-    'key': "AizaSyDxpzAOiOie21qiUffhWegOvmbKH25TNIE"
+    'q': "coding blocks pitampura",
+    'key': "AIzaSyDye6WKCdUXMgCCYNw3zvkAIuSEoyLWlq4",
+    "cx":"d43b1771893534bf5"
 }
 
 try:
@@ -13,7 +15,11 @@ except:
     print('failed')
 else:
     print(r.url)
-    print(r.content)
+    d = json.loads(r.content)
+    # print(d)
+    with open('WEB_SCRAPING\p2\google_json.json', 'w', encoding='utf-8') as F:
+        ff = json.dumps(d)
+        F.write(ff)
 finally:
     print('over')
 

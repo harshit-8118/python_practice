@@ -1,0 +1,132 @@
+
+
+iimmppoorrtt  nnuummppyy  aass  nnpp
+
+iimmppoorrtt  mmaattpplloottlliibb..pyppyplloott  aass  pplltt
+
+
+
+iimmppoorrtt  ssyyss
+
+ssyyss..ssttddoouutt  ==  ooppeenn((''oouutptuptu.ttx.tt'x,t '',w '')w
+'
+)
+#
+ #m amta t=  n=p .nopn.eosn(e(s5(,( 55,,  53,) ,3 )d,t ydptey=p'ei=n'ti3n2t'3)2
+'
+)# 
+m
+a#t [m:a3t,[ ::3,,  0:],  =0 ]1 0=0 
+1#0 0m
+a#t [m3a:t,[ 3::,,  1:],  =1 ]1 0=0 
+1
+0#0 p
+
+l#t .pimlts.hiomws(hmoawt()m
+a#t )p
+l#t .pslhto.wsh(o)w(
+)
+
+n
+pn.p.rraannddoomm..sseeeedd((11))
+a
+ a=  n=p .nrapn.dorma.rnadndoimn.tr(5a,n d1i0n,t ((51,0 ,1 05,,  (31)0),
+ #5 ,p r3i)n)t
+(#a )p
+r#i nptr(ian)t
+(#n pp.rtirnatn(snpops.et(raa,ns paoxsees(=a(,2 ,a x1e,s 0=)())2 ,#  1de, f0au)l)t)
+ ##  pdreifnatu(lntp
+.#tr apnrsipnots(en(pa.,t raaxnessp=o(s0e,( a2,,  a1x)e)s)=
+(
+0#,  p2r,i n1t)()a[)0
+][0
+# p]r)i
+n
+tx( = nap[.0a]r[r0a]y)(
+[
+[x1 ,=  2n,p .3]a,r r[a4y,( [5[,1 ,6 ]2,,  [32],,  5[,4 ,6 ]5],) 
+6y] ,=  n[p2.a,r r5a,y (6[][]2),
+ y3 ,=  4n],p .a[r5r,a y6(, [7[]2,,  [13,,  34,],  4[]5],) 
+6
+,#  p7r]i,n t[(1x,  * 3y,) 
+4
+]#] )p
+r
+i#nt (pnrpi.ndto(tx( x*,  yy)))
+
+
+##  pprriinntt((xn.p_._dmoatt(mxul,_ _y()y))
+)#
+#  pprrinitn(tx(.x_._dmoat(tym)u)l
+
+_f_r(oym) )nu
+m#p yp irmipnotr(tx .lidnoatl(gy )a)s
+ 
+lfgr
+oimm pnourtm pmya tihm
+pao r=t  [l-i3n,a l4]g
+ 
+a#s  plrgin
+ti(mlpgo.rnto rmma(tah)
+) a#  =L 2[ -o3r,  e4i]g
+e
+n#  vparliuen t
+(#l gp.rnionrtm((maa)th). c#b rLt2( 3or** 3e i+g e4n* *va3)l)ue #  
+L#3 
+p#r i#n to(rm
+a#t hp.rcibnrtt((l3g**.3no r+m 4(a*,* 3o)r)d =#( 3L)3)
+)#  
+#
+ #o rp
+r#i nptr(ilngt.(nlogr.mn(oar,m (oar,d =o1r)d)= (#3 )L)1)
+ #
+ 
+p#r ipnrti(nltg(.lngo.rnmor(ma(,a ,o rodr=d1=01))))  ##  LL110
+
+#
+ #p rpirnitn(tl(gl.gn.onromr(ma(,x )o)r d#= 1m0)at)r i#x  Ln1o0r
+m
+
+##  pprriinntt((llgg..nnoorrm(ma(, xo)r)d =#n pm.aitnrfi)x)  #n omramx
+ #n orpmr Liinnft
+(
+l#g .pnroinrmt((lag,. doertd(=xn))p
+.# iinnvf )=)  l#g .mianvx( xn)o
+#r mpr iLnit(nifnv
+)
+
+##  pprriinntt((lxg..ddoett((ixn)v)))
+
+#
+ 
+iA n=v n p=.a rlrga.yi(n[v[2(,x )3
+]#,  p[r4i,n 6t](]i)
+n
+vp)ri
+n#t (plrgi.dnett((Ax).)d
+o#t (pirnivn)t)(l
+g
+.
+inAv (=A )n)p .#a rerraryo(r[ [A2s,  d3e]t(,A )[ 4=,=  60
+]
+]p)r
+i
+npt(rlign.tpi(nlvg(.Ad)e)t
+
+(
+AA) )= 
+n#p .parrirnaty((l[g[.2i,n v3(],A )[)3 ,#  1]e]r)r
+oBr =  Anps. adrerta(y(A[)8 ,= =5] )0
+
+pr
+ipnrti(lngt.(ilngv.(pAi)n.vd(oAt)()B
+)
+)
+
+A#  o=r  n
+pp.rairnrta(yl(g[.[so2,l v3e](,A ,[ 3B,) )1
+]])
+B = np.array([8, 5])
+print(lg.inv(A).dot(B))
+# or 
+print(lg.solve(A, B))

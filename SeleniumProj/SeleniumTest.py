@@ -8,9 +8,10 @@ chrome_options = Options()
 chrome_options.add_argument('--disabled-cookies')
 chrome_options.add_experimental_option("detach", True)
 svc = webdriver.ChromeService(executable_path=binary_path)
-browser = webdriver.Chrome(service=svc)
+browser = webdriver.Chrome()
 
 browser.get("http://www.codechef.org")
+
 login = WebDriverWait(browser, 10).until(
     EC.element_to_be_clickable((By.CLASS_NAME, 'm-login-button-no-border'))
 )
@@ -33,7 +34,7 @@ submit = WebDriverWait(browser, 10).until(
 submit.click()
 browser.get('https://www.codechef.com/problems/TEST')
 
-with open('sol.cpp', 'r') as f:
+with open('SeleniumProj\sol.cpp', 'r') as f:
     code = f.read()
 
 textarea = WebDriverWait(browser, 10).until(

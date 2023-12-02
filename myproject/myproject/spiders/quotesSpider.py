@@ -1,6 +1,7 @@
 from typing import Iterable
 import scrapy
 from scrapy.http import Request, Response
+from scrapy.utils.response import open_in_browser
 import json
 
 class quotesSpider(scrapy.Spider):
@@ -16,6 +17,10 @@ class quotesSpider(scrapy.Spider):
             yield scrapy.Request(url=url, callback=self.parse)
 
     def parse(self, response: Response):
+        '''
+        open_in_browser(response)
+        return 
+        '''
         page_id = response.url.split('/')[-2]
         filename = "quotes-%s.html"%page_id
         with open(filename, 'wb') as ff:

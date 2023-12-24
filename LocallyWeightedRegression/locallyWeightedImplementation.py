@@ -88,19 +88,21 @@ def plotprediction(tau):
 
     for x in x_test:
         theta, prediction = predict(X_, Y, x, tau)
-        y_test.append(prediction[0][0])
+        pred = np.array(prediction)
+        y_test.append(pred[0][0])
 
     y_test = np.array(y_test)
     xo = np.array(X)
     yo = np.array(Y)
     global i
     plt.subplot(3, 3, i)
+    # print(x_test.shape, y_test.shape)
     i += 1
     plt.scatter(xo, yo)
-    plt.scatter(x_test, y_test, label=tau)
+    plt.plot(x_test, y_test, label=str(tau), color='orange')
     plt.legend()
 
-
+plotprediction(0.01)
 plotprediction(0.1)
 plotprediction(0.3)
 plotprediction(0.5)
@@ -109,7 +111,6 @@ plotprediction(1)
 plotprediction(25)
 plotprediction(50)
 plotprediction(75)
-plotprediction(100)
 plt.show()
 
 

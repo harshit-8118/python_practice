@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marks Predictor</title>
+</head>
+<body>
+    <form action="/getMarks" method="post">
+        <input type="number" name="hours" id="">
+        <input type="submit">
+    </form>
+    {% if my_marks %}
+    <h1>Your marks are: </h1><i>{{my_marks}}</i>
+    {% endif %}
+</body>
+</html>

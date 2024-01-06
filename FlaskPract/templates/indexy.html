@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask TUT</title>
+</head>
+<body>
+    <h1>Lorem, ipsum dolor.</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati soluta, natus dolores a, ab minima voluptatum ducimus repellat eligendi suscipit est quaerat, animi vero debitis? Recusandae, nam velit, et blanditiis fugit dolorem ipsam quos voluptatum labore inventore cumque voluptates consequuntur soluta commodi hic id dolorum reiciendis reprehenderit dicta! Velit unde recusandae voluptas ex veniam ducimus corrupti officiis non eligendi. Corrupti fugit sit at eveniet perspiciatis soluta quibusdam voluptates repudiandae, voluptatibus placeat iure voluptate expedita vel debitis saepe hic repellat iusto accusamus esse aut laudantium fugiat obcaecati minus! Exercitationem officiis magnam voluptatibus. Officiis eligendi quo aut veniam. Totam vero saepe molestiae?</p>
+
+    {% if num > 5 %}
+    <p><mark>{{num}}</mark> is greater than 5 <p>
+    {% elif num == 5 %}
+    <p><mark>{{num}}</mark> is equal to 5</p>
+    {% else %}
+    <p><mark>{{num}}</mark> is smaller than 5</p>
+    {% endif %}
+    {% for f in friends %}
+    <h2>{{f}}</h2>
+    {% endfor %}
+
+    <form method="post" action="/submit" enctype="multipart/form-data">
+        <input type="number" name="no1">
+        <input type="number" name="no2">
+        <input type="file" name="userfile">
+        <input type="submit"/>
+    </form>
+</body>
+</html>
